@@ -11,4 +11,3 @@ onEvent("id", "event", function() {
 });
 
 setParent("child", "parent");
-
