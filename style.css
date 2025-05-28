@@ -1,2 +1,14 @@
-button  { background-color: grey; color: white}   
-body { background-color: blue;}
+button  { background-color: black; color: white}   
+body { background-color: white;}
+
+body *{
+    display: inline-block;
+    position: relative;
+}
+
+.card{
+    width: 10rem;
+    height: 15rem;
+    background-color:  blue;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/55/Atlasnye_playing_cards_deck.svg)
+}
