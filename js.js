@@ -17,3 +17,13 @@ for(let i=0; i<LIST.length;i++){
 
     newBTN.addEventListener("click", doThings);
 }
+
+var TEMP = document.getElementByID("temp");
+var TARGET = document.getElementByID("target");
+
+var CARD = TEMP.querySelector(".card");
+
+for(var i = 0; count < 5; i++){
+    var copyCard = CARD.cloneNode(true);
+    TARGET.append(copyCard);
+}
