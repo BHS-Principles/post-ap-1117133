@@ -6,6 +6,8 @@ body *{
     position: relative;
 }
 
+body > script{display:none}
+
 .card{
     width: 10rem;
     height: 15rem;
